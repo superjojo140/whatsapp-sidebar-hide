@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Whatsapp Sidebar Hide",
+    "version": "1.0",
+    "description": "Toggle wether the Sidebar is shown on WhatsApp Web",
+    "content_scripts": [
+        {
+            "js": [
+                "script1.js"
+            ],
+            "matches": [
+                "https://web.whatsapp.com/*"
+            ]
+        }
+    ]
+}
